@@ -1,0 +1,51 @@
+@charset utf-8;
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    color: #000000;
+    font-size: 80%;
+}
+
+article
+{
+    width: 880px;
+    margin: 0 auto;
+}
+
+contents
+{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px 10px solid;
+}
+
+header h1
+{
+    text-align: center;
+    color: crimson;    
+}
+
+#Side-menu
+{
+    text-align: center;
+}
+
+#Side-menu > input
+{
+    display: none;
+}
+
+#Side-menu a
+{
+    font-size: 25px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: red;
+    color: aliceblue    
+}
+
+
+
